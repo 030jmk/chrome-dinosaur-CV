@@ -259,7 +259,7 @@ def menu(death_count):
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 run = False
-            if event.type == pygame.KEYDOWN:
+            if event.type == pygame.TEXTINPUT:
                 main()
 
 
